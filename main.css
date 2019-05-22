@@ -1,0 +1,69 @@
+body {
+  background: url(https://cdn.jsdelivr.net/gh/a7madd94/I-m-here/desktop.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+}
+.header {
+  position: relative;
+  width: 100%;
+  height: 740px;
+  color: #FFF;
+}
+.row {
+  max-width: 1472px;
+  margin: auto;
+}
+.head-text{
+  color: #FFF;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 280px;
+}
+.header-text {
+  font-size: 4em;
+  font-family: Helvetica Neue; 
+  font-style: italic;
+  text-shadow: 1px 1px 2px black, 0 0 1em black; 
+  letter-spacing: 5px;
+  padding-bottom: 5px;
+}
+.btn{
+  margin-top: 2%;
+  font-family: Helvetica Neue;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.mobile {
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  text-align: center;
+  padding-top: 10px;
+  top: 500px;
+  left: 0;
+  right: 0;
+  font-size: 1.5em;
+  font-family: Helvetica Neue; 
+  font-style: italic;
+  text-shadow: 1px 1px 2px black, 0 0 1em black; 
+}
+
+@media (max-width: 750px) {
+  body {
+    background: url(https://cdn.jsdelivr.net/gh/a7madd94/I-m-here/mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .header-text {
+    font-size: 2em;
+  }
+  .mobile {
+    font-size: 1em;
+  }
+}
